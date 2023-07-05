@@ -1,0 +1,45 @@
+#calculadora{
+    width: 60%;
+    height: 600px;
+    margin:100px auto;
+    background-color: aliceblue;
+    margin: center;
+    display:grid;
+    grid-template-columns:  auto auto auto auto;
+    grid-template-rows:auto auto auto auto;
+}
+#calculadora div{
+    margin: 8px;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+   font-size: xx-large;
+    text-align: center;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.button:hover{
+    background-color: rgb(158, 157, 157);
+}
+#tela{
+    width: 99%;
+    height: 100px;
+    grid-column: 1/4;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+     font-size: xx-large;
+     padding:0;
+     
+}
+#ive{
+    border: none;
+}
